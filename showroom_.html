@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forland</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/showroom_style.css">
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/Forland LOGO 1.png" alt="logo">
+                </a>
+            </div>
+            <div class="menu__btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <ul class="nav__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="showroom.html" class="current">Showroom</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="discover.html">Discover Forland</a></li>
+            <li><a href="dealerships.html">Dealerships</a></li>
+            <li><a href="help-center.html">Help Center</a></li>
+        </ul>
+        <ul class="social__icons">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+    </nav>
+    
+    <div class="sub-menu">
+        <ul class="sub-menu-links tabs">
+            <li data-tab-target="#lcv" class="active-tab tab">LIGHT COMMERCIAL VEHICLES</li>
+            <li data-tab-target="#ldv" class="tab">LIGHT DUTY VEHICLES</li>
+            <li data-tab-target="#mcv" class="tab">MEDIUM COMMERCIAL VEHICLES</li>
+            <li data-tab-target="#bus" class="tab">BUS</li>
+            <li data-tab-target="#mpv" class="tab">MPV</li>
+            <li class="show-all-btn"><a href="#">Complete Range</a></li>
+        </ul>
+    </div>
+
+    <div class="tabs-content">
+        <div data-tab-content id="lcv" class="active-tab">
+            <div class="tab-content-detail">
+                <div class="thumbnails">
+                    <div class="thumbnail" data-tab-targetProduct="#c10" class="product-tab active-tab2">
+                        <img src="assets/images/C10-sm.png" alt="C10">
+                        <div>
+                            <h4>C10</h4>
+                            <h5>1 Ton Loading</h5>
+                        </div>
+                    </div>
+                    <div class="thumbnail" data-tab-targetProduct="#c19" class="product-tab">
+                        <img src="assets/images/C19-sm.png" alt="C19">
+                        <div>
+                            <h4>C19</h4>
+                            <h5>1.5 Ton Loading</h5>
+                        </div>
+                    </div>
+                    <div class="thumbnail" data-tab-targetProduct="#t5" class="product-tab">
+                        <img src="assets/images/T5-sm.png" alt="T5">
+                        <div>
+                            <h4>T5</h4>
+                            <h5>2.5 Ton Loading</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-specs active-tab" data-tab-contentProduct id="c10">
+                        <h2>C10</h2>
+                        <p>The Power to Deliver More...</p>
+
+                        <h5>Drive away from</h5>
+                        <h4>2,049,000 <span>Freight & CVT incl.</span></h4>
+
+                        <h5>Deckless</h5>
+                        <h4>1,949,000 <span>Freight & CVT incl.</span></h4>
+
+                        <h5>Full Options</h5>
+                        <h4>2,099,000 <span>Freight & CVT incl.</span></h4>
+                        
+                        <div class="btn-group">
+                            <div class="show-all-btn">Full Review</div>
+                            <div class="show-all-btn fill">E-Brochure</div>
+                        </div>
+
+                        <h6>Apply for Finance</h6>
+                </div>
+
+                <div class="product-specs" data-tab-contentProduct id="c19">
+                        <h2>C19</h2>
+                        <p>The Power to Deliver More...</p>
+
+                        <h5>Drive away from</h5>
+                        <h4>2,049,000 <span>Freight & CVT incl.</span></h4>
+
+                        <h5>Deckless</h5>
+                        <h4>1,949,000 <span>Freight & CVT incl.</span></h4>
+
+                        <h5>Full Options</h5>
+                        <h4>2,099,000 <span>Freight & CVT incl.</span></h4>
+                        
+                        <div class="btn-group">
+                            <div class="show-all-btn">Full Review</div>
+                            <div class="show-all-btn fill">E-Brochure</div>
+                        </div>
+
+                        <h6>Apply for Finance</h6>
+                </div>
+
+                <div class="product-specs" data-tab-contentProduct id="t5">
+                        <h2>T5</h2>
+                        <p>The Power to Deliver More...</p>
+
+                        <h5>Drive away from</h5>
+                        <h4>2,049,000 <span>Freight & CVT incl.</span></h4>
+
+                        <h5>Deckless</h5>
+                        <h4>1,949,000 <span>Freight & CVT incl.</span></h4>
+
+                        <h5>Full Options</h5>
+                        <h4>2,099,000 <span>Freight & CVT incl.</span></h4>
+                        
+                        <div class="btn-group">
+                            <div class="show-all-btn">Full Review</div>
+                            <div class="show-all-btn fill">E-Brochure</div>
+                        </div>
+
+                        <h6>Apply for Finance</h6>
+                </div>
+
+                <div class="product-image-container">
+                    <img src="assets/images/c10-lg.png">
+                    <div class="product-features">
+                        <div class="product-feature">
+                            <div class="product-feature-image">
+                                <img src="assets/images/Speed.png" alt="feature">
+                                <h5>100cc <br>Petrol Engine</h5>
+                            </div>
+                        </div>
+                        <div class="product-feature">
+                            <div class="product-feature-image">
+                                <img src="assets/images/Load.png" alt="feature">
+                                <h5>7.2ft Length</h5>
+                            </div>
+                        </div>
+                        <div class="product-feature">
+                            <div class="product-feature-image">
+                                <img src="assets/images/Brake.png" alt="feature">
+                                <h5>LSPV <br>Brake System</h5>
+                            </div>
+                        </div>
+                        <div class="product-feature">
+                            <div class="product-feature-image">
+                                <img src="assets/images/Adjustable-Lamp.png" alt="feature">
+                                <h5>Fog Lamps</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-tab-content id="ldv">
+            <h2>Light Duty Vehicles</h2>
+            <p>Light Duty Vehicles</p>
+        </div>
+
+        <div data-tab-content id="mcv">
+            <h2>Medium Commercial Vehicles</h2>
+            <p>Medium Commercial Vehicles</p>
+        </div>
+
+        <div data-tab-content id="bus">
+            <h2>Bus</h2>
+            <p>Bus</p>
+        </div>
+
+        <div data-tab-content id="mpv">
+            <h2>MPV</h2>
+            <p>MPV</p>
+        </div>
+    </div>
+
+
+
+    
+
+    
+
+    
+
+
+    
+
+
+    <footer>
+        <div class="footer__container">
+            <div class="footer__col">
+                <div class="footer__logo">
+                    <img src="assets/images/jw-forland-png 1.png" alt="logo">
+                </div>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                </p>
+                <p>Support center 24/7</p>
+                <span>+92-42-111-145263</span>
+            </div>  
+            <div class="footer__col">
+                <h4>ABOUT US</h4>
+                <ul class="footer__links">
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">OUR JOURNEY</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>PRODUCTS</h4>
+                <ul class="footer__links">
+                    <li><a href="#">LIGHT DUTY TRUCK</a></li>
+                    <li><a href="#">MEDIUM DUTY TRUCK</a></li>
+                    <li><a href="#">SAFAARI</a></li>
+                    <li><a href="#">AMBULANCE</a></li>
+                    <li><a href="#">BUS</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>SUBSCRIBE</h4>
+                <form action="" class="subscribe__form">
+                    <div class="input__row">
+                        <div class="input__field">
+                            <label for="date">YOUR EMAIL</label>
+                            <input type="email" name="sub__email" placeholder="Enter Your Email">
+                        </div>
+                    </div>
+                    <button class="btn">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="https://kit.fontawesome.com/089e623bbf.js" crossorigin="anonymous"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+
+
+      
+    </script>
+</body>
+</html>
